@@ -69,6 +69,8 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
+<h2>Eventbrite Registration Note:</h2>
+<p><strong>This workshop is only open to registered attendees of the NSBE conference.</strong></p>
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
@@ -79,6 +81,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
+
 
 
 <h2 id="general">General Information</h2>
