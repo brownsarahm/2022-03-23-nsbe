@@ -315,7 +315,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
+<h2 id="surveys">Surveys and Mailing List</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
@@ -332,6 +332,12 @@ change the value of `carpentry` to `incubator`.
 {% else %}
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+
+<p><strong>Please consider joining The Carpentries Equity Cohort mailing list</strong></p>
+<p>This workshop is part of The Carpentries'
+<a href="https://carpentries.org/blog/2021/06/carpentries-sloan-foundation-announcement/" target="_blank">effort to promote diversity</a> amongst our instructors: <a href="https://carpentries.topicbox.com/groups/equity-cohort" target="_blank">sign up on Topicbox</a>
+</p>
+
 {% endif %}
 
 <hr/>
