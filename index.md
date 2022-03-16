@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "33.79953745280976"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-117.92177858465735"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "March 23, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "09:00 am - 05:00 pm PDT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "08:30 am - 05:00 pm PDT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-03-28      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-03-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Sarah Brown", "Jason Williams"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -110,6 +110,8 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
+This workshop is only for registered attendees of NSBE's 48th Annual Convention. 
+
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
@@ -117,6 +119,8 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+
+
 
 {% comment %}
 LOCATION
