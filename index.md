@@ -359,6 +359,7 @@ times in the table to match your plans. You may also want to
 change 'Day 1' and 'Day 2' to be actual dates or days of the
 week.
 
+
 For larger changes, a blank template for a 4-day workshop
 (useful for online teaching for instance) can be found in
 `_includes/custom-schedule.html`. Add the times, and what
@@ -368,6 +369,9 @@ further. To use this custom schedule here, replace the block
 of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
+
+- [morning notes](https://github.com/brownsarahm/2022-03-23-nsbe/tree/gh-pages/files/nsbepython.ipynb)
+
 
 <h2 id="schedule">Schedule</h2>
 {% include custom-schedule.html %}
