@@ -370,11 +370,15 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-- [morning notes](https://github.com/brownsarahm/2022-03-23-nsbe/tree/gh-pages/files/nsbepython.ipynb)
-
 
 <h2 id="schedule">Schedule</h2>
 {% include custom-schedule.html %}
+
+## Notes 
+
+- [morning python](https://github.com/brownsarahm/2022-03-23-nsbe/tree/gh-pages/files/nsbepython.ipynb)
+
+
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
