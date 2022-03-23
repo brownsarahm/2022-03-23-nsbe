@@ -376,7 +376,7 @@ of code below the Schedule `<h2>` header below with
 
 ## Notes 
 
-- [morning python](https://github.com/brownsarahm/2022-03-23-nsbe/tree/gh-pages/files/nsbepython.ipynb)
+All notes will be posted to [this notes site and are dowloadable as pdf or notebook](https://brownsarahm.github.io/2022-03-23-nsbe-notes/about.html)
 
 
 
